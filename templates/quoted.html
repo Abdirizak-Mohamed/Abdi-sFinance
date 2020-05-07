@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+<table id="Quote" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>Sympbol</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td> {{ quote.symbol }}</td>
+              <td> {{ quote.name }}</td>
+              <td> {{ quote.price }}</td>
+            </tr>
+        </tbody>
+</table>
+{% endblock %}
