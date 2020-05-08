@@ -14,3 +14,5 @@ Create and track stock portfolio
 10. $ export API_KEY=value
 11. Then to start application execute: 
 12. $ flask run
+
+![](Abdi'sFinance.gif)
